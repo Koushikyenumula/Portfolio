@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    background-color: #11120D;
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+
+
+/* Header Style*/
+
+/* Header Style*/
+.nav-links{
+    display: inline;
+}
+.navbar{
+    position: fixed;
+    width:100%;
+    top: 0px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.Port, .Menu{
+    display: inline;
+    COLOR: #FFFBF4;
+}
+.Port{
+    margin-left: 75px;
+    margin-right: 18%;
+}
+header{
+    margin-bottom: 3%;
+}
+.Menu{
+    margin-left: 17px;
+    margin-right: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.Resume{
+    margin-left: 12%;
+    padding: 15px;
+    background-color:#9e1515;
+    color: #FFFBF4;
+    border-radius: 15px;
+    font-weight: 575;
+    text-align: right;
+}
+.Resume, a{
+    text-decoration: none;
+    color: #FFFBF4;
+    transition: 0.5s;    
+}
+.Resume:hover{
+    background-color: #FFFBF4;
+    color: #11120D;
+    transition: 0.5s;
+    font-weight: 575;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
+}
+.Menu:hover{
+    color: #FFFBF4;
+    border-radius: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.navbar-sep{
+    margin-top: 15px;
+    background-color: #FFFBF4;
+    border: #FFFBF4 solid 0.75PX;
+     border-radius: 15px;
+}
+/* Main Style */
+.flex-cont{
+    margin: 10% 0 0 3%
+}
+.Greet{
+    color: #FFFBF4;
+    margin-left: 10%;
+    margin-top: 12%;
+    margin-bottom: 1%;
+    font-size: 35px;
+}
+.name{
+    color: #FFFBF4;
+    margin-left: 10%;
+    margin-top: 0;
+     margin-bottom: 0;
+     display: inline;
+     font-size: 35px;
+}
+.soft{
+    color: #FFFBF4;
+    margin-left: 10%;
+    margin-top: 0;
+     margin-bottom: 5%;
+     font-weight: 500;
+     font-size: 20px;
+     width: 80%;
+}
+.text{
+    display: inline;
+    font-size: 35px;
+    margin-left: 9px;
+    color: #9e1515;
+}
+.image{
+    width:350px;
+    margin-top: 10%;
+    margin-right: 1%;
+    border-radius: 100%;
+     transition: 1s;
+    box-shadow: 13px 2px 50px 0.5px rgba(96, 122, 100, 0.4);
+}
+.flex-cont{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+}
+.social{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.github, .Linkedin, .Instagram{
+    margin-right: 9%;
+    width: 25px;
+  transition: 1s;
+}
+.Naam{
+    font-size: 20px;
+    background-color: #FFFBF4;
+    color:#11120D;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 16%;
+    font-weight: 600;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.Naam:hover{
+    color:#FFFBF4;
+    background-color: #11120D;
+    transition: 0.5s;
+}
+
+.cnctme, .dndres{
+    display: inline;
+    padding: 15px;
+    background-color: #9e1515;
+    color:  #FFFBF4;
+    border-radius: 15px;
+    font-weight: 575;
+    text-align: right;
+    transition: 0.5s;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.cnctme:hover , .dndres:hover{
+    background-color:#FFFBF4 ;
+    color: #11120D ;
+    transition: 0.5s;
+}
+.cnctme{
+    margin-left: 0;
+}
+#section-1{
+    padding-top: 0.2%;
+}
+/* About Section */
+.about{
+    margin-top: 10%;
+}
+#abt{
+    margin-bottom: 8%;
+}
+.acont{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+.int{
+    max-width: 45%;
+    text-align: justify;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: #FFFBF4;
+    box-shadow: 13px 2px 50px 0.5px rgba(96, 122, 100, 0.4);
+}
+.techstack{
+    display: flex;
+    flex-direction: column;
+}
+.doms{
+    display: flex;
+    row-gap: 5px;
+}
+.sk{
+    text-align: center;
+    margin: 0;
+}
+.front, .Backend,.Database{
+    width: 170px;
+    text-align: center;
+    color: #FFFBF4;
+}
+.span{
+    background-color: #FFFBF4;
+    text-align: center;
+    margin:0 2% 0 2%;
+    padding:0 3% 0 3%;
+    border-radius: 5px;
+    color: #11120D;
+    font-size: 16px;
+}
+.Head{
+    text-align: center;
+    color: #FFFBF4;
+    margin: 0 0 8% 0;
+}
+#section-2{
+    padding: 12% 0 0 0 ;
+}
+/* Projects Section */
+#section-3{
+    padding-top: 12%;
+}
+.ProT, .cerT{
+    color:#FFFBF4;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.alpr, .alce{
+    display: flex;
+    gap:5%;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.pro-1, .pro-2, .pro-3, .pro-4, .pro-5{
+    padding: 8% 12% 8% 12%;
+    width: 390px;
+    border: 1px solid #FFFBF4;
+    margin-bottom: 8%;
+    color: #FFFBF4;
+    border-radius: 10px;
+    
+} 
+.cer-1, .cer-2,.cer-3,.cer-4,.cer-5{
+    padding: 8% 10% 8% 10%;
+    width: 390px;
+    border: 1px solid #FFFBF4;
+    margin-bottom: 8%;
+    color: #FFFBF4;
+    background-position:center;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #524f4f;
+    background-blend-mode:multiply;
+    transition-duration: 0.5s;
+}
+.cer-1:hover, .cer-2:hover,.cer-3:hover,.cer-4:hover,.cer-5:hover{
+    transition-duration: 0.5s;
+    background-color: #FFFBF4;
+    background-blend-mode: multiply;
+    cursor: pointer;
+}
+.acer{
+    text-decoration: none;
+    color: #11120D;
+    background-color: #FFFBF4 ;
+}
+.cer-1:has(cer-1:hover){
+    visibility: hidden;
+}
+
+/* Contact Me */
+.conss{
+    color: #FFFBF4;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.imgss{
+    width: 15px;
+    background: #fff;
+}
+.h2s{
+    font-size: 18px;
+    color: rgb(44, 125, 196);
+    background: #fff;
+    margin: 0;
+}
+.ps{
+    font-size: 11px;
+    background: #fff;
+}
+.h4s{
+    font-size: 14px;
+    color: rgb(44, 125, 196);
+    background: #fff;
+    margin: 0%;
+}
+hr{
+    width: 1px;
+    height: 70%;
+    margin-top: 6%
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+.cont{
+    padding: 10px;
+    width: 120vh;
+    display: flex;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 13px 2px 50px 0.5px rgba(0, 0, 0, 0.4);
+}
+.cont:hover{
+    box-shadow: 13px 2px 50px 0.5px rgba(255, 255, 255, 0.2);
+}
+.contacts{
+    text-align: center;
+    margin: 3% 5% 2% 2%;
+    background: #fff;
+}
+.msg{
+    margin: 3% 2% 2% 5%;
+    background: #fff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    background: #fff;
+
+}
+input{
+    margin: 0 0 1% 0;
+    border: none;
+    background-color: rgb(220, 225, 230);
+    padding: 1.5% 0 1.5% 2% ;
+    border-radius: 5px;
+    outline: none;
+}
+textarea {
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  resize: none; 
+    background-color: rgb(220, 225, 230);
+    margin-bottom: 3%;
+    border: none;
+    outline: none;
+}
+button{
+    background: rgb(44, 125, 196);
+    border: none;
+    padding: 2% 3% 2% 3%;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(24, 67, 105);
+    transition: 0.5s;
+}
+.phn,.email,.add{
+    background: #fff;
+    margin-bottom: 10%;
+}
+
+/* --- NEW RESPONSIVE STYLES --- */
+
+/* For Tablets and smaller devices */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding-left: 5%; /* Adjust padding for smaller screens */
+    }
+    .Port {
+        margin-right: auto; /* Push links to the right */
+    }
+    .Menu {
+        margin: 0;
+    }
+    .Resume {
+        margin: 0;
+    }
+    
+    .flex-cont {
+        grid-template-columns: 1fr; /* Stack hero content */
+        text-align: center;
+        margin: 5% 0 0 0;
+    }
+    .images {
+        order: 1; 
+        margin: 0 auto 40px;
+    }
+    .hcontent {
+        order: 2; 
+        padding-right: 0;
+        align-items: center;
+    }
+    .Greet, .name, .soft {
+        margin-left: 0;
+    }
+    .soft {
+        margin: 20px auto; 
+    }
+    .social {
+        margin-top: 10%;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .cnctme, .dndres {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .acont {
+        flex-direction: column; /* Stack about me sections */
+        align-items: center;
+    }
+    .int {
+        max-width: 90%;
+        margin-bottom: 10%;
+    }
+    .cont {
+        flex-direction: column; /* Stack contact form sections */
+        width: 90%;
+        height: auto;
+    }
+    hr {
+        width: 100%;
+        height: 1px;
+        margin-top: 0;
+    }
+}
+
+/* For Mobile Phones */
+
+/* Keep your existing CSS above here */
+
+/* --- Hamburger Menu --- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 25px;
+  z-index: 1001;
+}
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background: #fffbf4;
+  margin: 4px 0;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+}
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* --- Nav Links --- */
+
+.nav-links a {
+  color: #fffbf4;
+  margin: 0 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav-links a:hover {
+  color: #9e1515;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 1024px) {
+  .flex-cont {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 15% auto;
+  }
+  .image {
+    margin-top: 30px;
+    width: 280px;
+  }
+  .int {
+    max-width: 90%;
+  }
+  .cont {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+  hr {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+   margin-left: 80%;
+  }
+  .Resume{
+    display: none;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #11120d;
+    text-align: center;
+    border-top: 1px solid #fffbf4;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .nav-links a {
+    padding: 15px 0;
+    width: 100%;
+  }
+  .Resume {
+    margin-bottom: 15px;
+  }
+  .Greet,
+  .name,
+  .text {
+    font-size: 26px;
+    margin-bottom: 2%;
+  }
+  .soft {
+    font-size: 15px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7%;
+  }
+  .social {
+    justify-content: center;
+  }
+  .github,.Linkedin,.Instagram{
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .alpr,
+  .alce {
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 8%; */
+  }
+}
+.doms{
+    flex-direction: column;
+}
